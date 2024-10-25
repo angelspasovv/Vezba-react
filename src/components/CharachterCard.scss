@@ -1,0 +1,44 @@
+.character-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 15px;
+    text-align: center;
+
+    img {
+        border-radius: 10px;
+        width: 100%;
+        height: auto;
+    }
+
+    h3 {
+        margin: 10px 0;
+    }
+
+    button {
+        margin: 5px;
+        padding: 8px 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+
+        &.add-favorite {
+            background-color: #28a745;
+            color: white;
+
+            &:hover {
+                background-color: #218838;
+            }
+        }
+
+        &.details {
+            background-color: #007bff;
+            color: white;
+
+            &:hover {
+                background-color: #0056b3;
+            }
+        }
+    }
+}

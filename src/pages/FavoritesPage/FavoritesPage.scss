@@ -1,0 +1,11 @@
+.favorites-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+
+    .character-card {
+        flex: 1 1 calc(25% - 40px); 
+        margin: 10px;
+    }
+}
